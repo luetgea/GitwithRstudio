@@ -1,0 +1,20 @@
+---
+title: "GitwithRstudio"
+author: "Almut Luetge"
+date: "June 12, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Some calculations
+
+```{r some content}
+x <- seq(1:100)
+y <- c(2:101)
+z <- x + y
+
+```
+
